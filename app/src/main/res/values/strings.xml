@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Bakglatt</string>
+
+    <!-- Titles -->
+    <string name="settings">Innstillinger</string>
+    <string name="favorites2">Dine favorittsteder</string>
+    <string name="wax_calculator">Smøretipskalkulator</string>
+    <string name="smorebod">Din smørebod</string>
+
+    <!-- Buttons -->
+    <string name="nightmode">Nattmodus</string>
+    <string name="contrast">Høykontrast</string>
+    <string name="goToWax">Til Smøreboden</string>
+    <string name="nextPage">Neste side</string>
+    <string name="ok">Den er grei!</string>
+    <string name="actionText">Angre</string>
+    <string name="delete_data">Slett data</string>
+    <string name="prevPage">Forrige side</string>
+
+    <!-- Content descriptions -->
+    <string name="delete_all_data">Trykk her for å slette all data</string>
+    <string name="map">Kart</string>
+    <string name="favorites">Favoritter</string>
+    <string name="tips">Tips</string>
+    <string name="search_for_location">Søk etter lokasjon</string>
+    <string name="chooseAsFavorite">Velg som favoritt</string>
+    <string name="description_splashScreen">Bilde av en skiløper</string>
+    <string name="description_firstScreen">Logo: bakglatt, med bilde av en skiløper</string>
+    <string name="removeAsFavorite">Fjern som favoritt</string>
+    <string name="search_hint">Type in location</string>
+    <string name="info">Informasjon</string>
+    <string name="search_result_icon">Søkeresultatikon</string>
+    <string name="weather_forecast_icon">Værikon</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="wax_image">Smøringsbilde</string>
+    <string name="wax_button">Knapp til smøring</string>
+
+    <!-- Text -->
+    <string name="firstScreen_text1">Velkommen til</string>
+    <string name="firstScreen_text2">En app som gir deg alt annet enn bakglatte ski</string>
+    <string name="secondScreen_text1">Vi ønsker å gi deg de beste smøretipsene ut fra den skismøringen du selv har
+        \n\n Legg gjerne til skismøring i din personlige smørebod på neste side</string>
+    <string name="secondScreen_text2">Dette kan endres i innstillinger senere</string>
+    <string name="description_wax">Dette er din personlige smørebod! Her kan du legge til skismøringen du selv eier for å få tilpassede smøretips. Lar du smøreboden stå tom vil du kun få generelle smøretips.</string>
+    <string name="copyright_data">v. 1.0.0 – 21.05.2021 <br /> © Gruppe 12</string>
+    <string name="favorite_info">Du har ikke lagt til favoritter! \nDette kan gjøres ved å trykke på stjernen ved valgt lokasjon fra kartet</string>
+    <string name="location_info">Finner ikke lokasjon</string>
+    <string name="snowtype">Snøtype</string>
+    <string name="optimalt_tips">Fra Swix:</string>
+    <string name="personlig_tips">Fra din smørebod:</string>
+
+    <!-- Toasts -->
+    <string name="labelUndo">Lokasjonen er fjernet fra dine favoritter</string>
+    <string name="addFavorites">Lagt til i dine favoritter</string>
+    <string name="removeFavorites">Fjernet fra dine favoritter</string>
+
+    <!-- Snowtypes -->
+    <string name="dryNewlyFallen">Tørr nyfallen</string>
+    <string name="dryFineGrained">Tørr finkornet</string>
+    <string name="dryOldConverted">Tørr omdannet</string>
+    <string name="dryCoarseGrained">Tørr grovkornet</string>
+    <string name="wetNewlyFallen">Våt nyfallen</string>
+    <string name="wetFineGrained">"Våt finkornet</string>
+    <string name="wetOldConverted">Våt omdannet</string>
+    <string name="wetCoarseGrained">Våt grovkornet</string>
+
+    <!-- Numbers for temperature picker -->
+    <string-array name="temperature_values">
+        <item>-25</item>
+        <item>-24</item>
+        <item>-23</item>
+        <item>-22</item>
+        <item>-21</item>
+        <item>-20</item>
+        <item>-19</item>
+        <item>-18</item>
+        <item>-17</item>
+        <item>-16</item>
+        <item>-15</item>
+        <item>-14</item>
+        <item>-13</item>
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <!-- Mapbox -->
+    <string name="mapbox_access_token">INSERT-MAPBOX-ACCESS-TOKEN</string>
+</resources>

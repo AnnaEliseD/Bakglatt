@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Skismoring" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorOnPrimary">@color/lightblue_light</item>
+        <item name="colorOnBackground">@color/darkgrey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightblue</item>
+        <item name="colorSecondaryVariant">@color/lightblue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+</resources>

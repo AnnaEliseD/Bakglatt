@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mapFragment">
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.skismoring.ui.map.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/mapToLocation"
+            app:destination="@id/locationFragment" />
+        <action
+            android:id="@+id/mapToSearch"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/mapToSettings"
+            app:destination="@id/settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.skismoring.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.skismoring.ui.location.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location">
+        <action
+            android:id="@+id/locationToWax"
+            app:destination="@id/waxFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/waxFragment"
+        android:name="com.example.skismoring.ui.wax.WaxGarageFragment"
+        android:label="fragment_wax"
+        tools:layout="@layout/fragment_wax"/>
+
+
+    <include app:graph="@navigation/settings" />
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favorites"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/favoritesFragment">
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.skismoring.ui.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/favoritesToLocation"
+            app:destination="@id/locationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.skismoring.ui.location.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" />
+</navigation>

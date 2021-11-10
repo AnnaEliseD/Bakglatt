@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settings"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.skismoring.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/settingsToLube"
+            app:destination="@id/waxFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/waxFragment"
+        android:name="com.example.skismoring.ui.wax.WaxGarageFragment"
+        android:label="fragment_lube"
+        tools:layout="@layout/fragment_wax" />
+</navigation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.map.MapFragment"
+    android:background="?attr/colorOnBackground">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="59.97"
+        mapbox:mapbox_cameraTargetLng="10.78"
+        mapbox:mapbox_cameraZoom="8" />
+
+
+    <EditText
+        android:id="@+id/mapSearchView"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:autofillHints="@string/search_for_location"
+        android:background="@drawable/round"
+        android:backgroundTint="?attr/colorOnPrimary"
+        android:focusableInTouchMode="false"
+        android:hint="@string/search_for_location"
+        android:padding="10dp"
+        android:textColorHint="?attr/colorOnSecondary"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintTop_toTopOf="parent"
+        android:inputType="text" />
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/settings"
+        android:src="@drawable/ic_baseline_settings_24"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

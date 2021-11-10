@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tips"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/tipsFragment">
+
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.skismoring.ui.tips.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips">
+        <action
+            android:id="@+id/tipsToWax"
+            app:destination="@id/waxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/waxFragment"
+        android:name="com.example.skismoring.ui.wax.WaxGarageFragment"
+        android:label="fragment_wax"
+        tools:layout="@layout/fragment_wax" />
+
+</navigation>

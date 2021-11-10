@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="70dp"
+    android:layout_height="125dp"
+    android:background="?attr/colorOnBackground"
+    app:cardCornerRadius="0dp"
+    android:visibility="visible"
+    app:cardBackgroundColor="?attr/colorOnBackground">
+
+    <ImageView
+        android:id="@+id/img_weather"
+        android:layout_width="70dp"
+        android:layout_height="59dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:contentDescription="@string/weather_forecast_icon" />
+
+    <TextView
+        android:id="@+id/txt_temperature"
+        android:layout_width="70dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="70dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textStyle="bold"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,1098 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nordmarka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.701403503359925, 60.04669053359537]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holmenkollen"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.670996963744953,59.96499025988055]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sognsvann"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.727388707952334, 59.975854266488525]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Frognerseteren"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.677192875955539, 59.97774189827895]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bærumsmarka"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.559332113632195, 59.963702601987876]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kikutstua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.520922873058938, 59.97970224030234]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Østre Fyllingen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.64535719043416, 60.06933819570468]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bjørnsjøen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.65655173020001, 60.073134631444965]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tryvann"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.666734167536575, 59.987570242372655]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vangen skistue"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.000084643696662, 59.8223425124934]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Løvlia"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.808933120953585, 59.79465862193608]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Abbourputthytta"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.8326553, 60.39503302480173]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Trygglistua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.670049796300523, 60.010053627918296]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nordmarkskapellet"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.663573782880858, 60.01780559732957]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kobberhaughytta"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.66366262521044, 60.036323769701966]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Setertjernstua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.041213184723787, 59.88487984354492]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Linderudkollen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.814924413563855, 59.97082096504357]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ullevålseter"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.712055155894513, 60.00952767664179]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skjennungstua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.691251455894133, 60.00257026209559]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bjørnholt"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.690255142985606, 60.05473341519535]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stryken"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.710205198231275,60.20339747530226]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hakkloa"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.6783463995911, 60.0990957400358]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lilomarka"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.878541690277459, 59.97295146003423]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Solemskogen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.817612598221583, 59.97947214690566]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lilloseter"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.862749069386883, 59.9981240354797]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sinober"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.916353813565816, 60.00901780415854]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sørkedalen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.610742741858356, 60.01602740387067]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bislingen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.609668680167754, 60.244369784267505]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maridalen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.775534872525567, 59.99400719175979]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Movatn"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.80706133309035, 60.03674081447223]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Snippen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.807199716290599, 60.03159032996859]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nittedal"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.853398082590333, 60.05958955884171]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tømtehytta"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.761186871239364, 60.05146870347657]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Øyungsbua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.75314790007443, 60.040342986939415]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skistua på Sørli"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.850977098225712, 60.05934467792084]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ørfiske"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.828466972581817, 60.06215850167705]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sørli"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.848207623582873, 60.0605258259502]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sandermosen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.803636369387437, 60.008922993452686]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gørja"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.749708120968366, 60.08272069961984]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kjelsås"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.780229883633352, 59.97024111758831]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mellomkollen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.76619697485173, 60.05282371697318]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Øyungen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.742908483285472, 60.04365275493327]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holmetjern"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.773394623752319, 60.08554982971421]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delebekken"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.758912472612119, 60.098980619870936]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Varingskollen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.833376187956118, 60.09987090407221]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Svenskemyra"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.8273320186216, 60.076322701288966]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Losby gårdskafe"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.981786107250377, 59.89811769725443]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mariholtet"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.907678184724146, 59.89177376714653]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Røyrivannskoia"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.009793942393355, 59.85004862255626]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Østmarkskapellet"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.880803798214998, 59.85098180766723]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rustadsaga"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.856580042394503, 59.872848582514195]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skullerudstua"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.846488371229732, 59.863834484712825]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Østmarksetra"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.863189743700296, 59.8915004353924]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mønevann"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.991154827051897, 59.875270913273546]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Marikollen"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.059072731117922, 59.92346073633554]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sandbakken"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.829534958003874, 59.95038598784106]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brenna"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.842682606526928, 59.84711661671351]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ellingsrud"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.920843711102997, 59.931018897565956]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ekerud"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.924976313560842, 59.91205247028683]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lindeberg"
+                },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.12473481352793, 60.04570127026451]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haslumseter kapell"
+        },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.543496827541734,59.97478347810894]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Bekkestua"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.587705010816594,59.91792729701789]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Bogstad golf"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.638788769869878,59.962393151303296]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Brunkollen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.547632042884416,59.96753970598476]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Busterudvangen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.956539427544302,60.06047403813792]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Finnerud"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.642103085958329,60.031525587086556]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Fossum"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.626863264807898,59.959667407763234]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Furuholmen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.80543279012047,59.964696885828275]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Gardlaus"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.553989256366807,59.93402993456143]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Gaustad"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.715934349452159,59.95342997036968]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Gommerud"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.481192074709472,59.93001858493159]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Greinehytta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.414501556368958,60.00574550582066]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Gupu"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.418258057630966,59.878766626536674]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Guriby"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.487498256365987,59.90611003407985]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Gørjahytta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.749419123739333,60.07913885591615]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Hammeren"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.754932520531405, 59.996152203314]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Hønefoten"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.762940356368834,60.00237683462629]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Høymyr"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.348102687053228,59.96968174198028]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Korsvoll"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.75086154945636,59.962073978250345]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Krokhol"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.928115369855899,59.80301819764875]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Liastua"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.935952283353787,59.966689827629914]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Lommedalen Skole"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.473280300545953, 59.96097489232453]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Mikkelsbonn"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.381062369859386,59.91886545416723]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Nordby skole"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [11.056418826552399,59.87062185121406]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Nygård"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.54624105734363,59.96443416567897]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Ringdalshytta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.993222412191836,60.04582190682432]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Romsås"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.898115831220904,59.96661223567296]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Rykkinn"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.482828272389856,59.93113627295709]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Sagtomta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.871262363222852,60.03147330901926]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Sandvikshytta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.573082483359592,60.15995205892951]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Siggerud"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.881887690032137,59.79163059146252]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Skansebakken"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.58359968520504,60.01958522313903]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Skui"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.448193995469591,59.93141280814436]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Skytterkollen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [11.430545158220163,60.057666268957284]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Slattum"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.916938041534616,60.008586777704416]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Sollihøgda"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.34392269393267,59.964432801095676]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Spikertjernhytta"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.938241552126694,60.089880777672654]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Storebekkbua"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.507654084659713,60.02392439007241]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Streifinn"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [11.123321596297371,59.8328141545418]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Sæteren Gård"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.562292709793818,59.94794923918691]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Sørsetra"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.328585838631627,60.02042733746206]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Tobonn"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.48029488280899,59.98780137793354]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Trollvannstua"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.806460690752264,59.96180965300565]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Tæruddalen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [11.016104341026441,60.010580673398835]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Vensåsseter"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.506734396302239,59.996783985995116]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Øverland"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.562013426985569,59.93047489865189]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Åmot"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.62389719982269,60.025105119447474]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Årstadvangen"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.936932425141372, 60.1135821178639]
+        }
+        },
+        {
+        "type": "Feature",
+        "properties": {
+        "name": "Årvoll"
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [10.827865864793496,59.950581747405124]
+        }
+        }
+
+    ]
+}
+

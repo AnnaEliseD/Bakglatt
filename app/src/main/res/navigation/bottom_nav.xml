@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/map">
+    <navigation
+        android:id="@+id/map"
+        app:startDestination="@id/mapFragment">
+        <fragment
+            android:id="@+id/mapFragment"
+            android:name="com.example.skismoring.ui.map.MapFragment"
+            android:label="fragment_map"
+            tools:layout="@layout/fragment_map" >
+            <action
+                android:id="@+id/mapToLocation"
+                app:destination="@id/locationFragment" />
+            <action
+                android:id="@+id/mapToSearch"
+                app:destination="@id/searchFragment" />
+            <action
+                android:id="@+id/mapToSettings"
+                app:destination="@id/settings" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/searchFragment"
+            android:name="com.example.skismoring.ui.search.SearchFragment"
+            android:label="fragment_search"
+            tools:layout="@layout/fragment_search" />
+        <fragment
+            android:id="@+id/locationFragment"
+            android:name="com.example.skismoring.ui.location.LocationFragment"
+            android:label="fragment_location"
+            tools:layout="@layout/fragment_location">
+            <action
+                android:id="@+id/locationToWax"
+                app:destination="@id/waxFragment"/>
+        </fragment>
+        <fragment
+            android:id="@+id/waxFragment"
+            android:name="com.example.skismoring.ui.wax.WaxGarageFragment"
+            android:label="fragment_wax"
+            tools:layout="@layout/fragment_wax"/>
+
+
+        <include app:graph="@navigation/settings" />
+        <action
+            android:id="@+id/mapToFavorites"
+            app:destination="@id/favorites" />
+        <action
+            android:id="@+id/action_global_tips2"
+            app:destination="@id/tips" />
+    </navigation>
+    <navigation
+        android:id="@+id/favorites"
+        app:startDestination="@id/favoritesFragment">
+        <fragment
+            android:id="@+id/favoritesFragment"
+            android:name="com.example.skismoring.ui.favorites.FavoritesFragment"
+            android:label="fragment_favorites"
+            tools:layout="@layout/fragment_favorites" >
+            <action
+                android:id="@+id/favoritesToLocation"
+                app:destination="@id/locationFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/locationFragment"
+            android:name="com.example.skismoring.ui.location.LocationFragment"
+            android:label="fragment_location"
+            tools:layout="@layout/fragment_location" />
+        <action
+            android:id="@+id/action_global_tips"
+            app:destination="@id/tips" />
+        <action
+            android:id="@+id/action_global_map"
+            app:destination="@id/map" />
+    </navigation>
+
+    <navigation
+        android:id="@+id/tips"
+        app:startDestination="@id/tipsFragment">
+
+        <fragment
+            android:id="@+id/tipsFragment"
+            android:name="com.example.skismoring.ui.tips.TipsFragment"
+            android:label="fragment_tips"
+            tools:layout="@layout/fragment_tips">
+            <action
+                android:id="@+id/tipsToWax"
+                app:destination="@id/waxFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/waxFragment"
+            android:name="com.example.skismoring.ui.wax.WaxGarageFragment"
+            android:label="fragment_wax"
+            tools:layout="@layout/fragment_wax" />
+        <action
+            android:id="@+id/action_global_favorites"
+            app:destination="@id/favorites" />
+        <action
+            android:id="@+id/action_global_map2"
+            app:destination="@id/map" />
+
+    </navigation>
+</navigation>

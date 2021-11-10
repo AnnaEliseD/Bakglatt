@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.skismoring.ui.location.LocationViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.location.LocationFragment"
+        android:background="?attr/colorOnBackground">
+
+        <!-- Progress bar overlay; shown while data-fetching is in progress -->
+        <LinearLayout
+            android:id="@+id/progress_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:background="?attr/colorOnBackground"
+            android:gravity="center"
+            android:clickable="true"
+            android:translationZ="1dp"
+            android:focusable="true">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:indeterminateTint="?attr/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"/>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/circular_imagebutton_prev"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp">
+        </include>
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/favoriteButton"
+            android:contentDescription="@string/weather_icon" />
+
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@{viewmodel.weather.first}"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textColor="?attr/colorPrimaryDark"
+            android:textSize="35sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weather"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="30dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="?attr/colorPrimaryDark"
+            android:textSize="40sp" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/weatherForecast"
+            android:name="com.example.skismoring.ui.location.ForecastFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title" />
+
+        <include
+            android:id="@+id/recommendation"
+            layout="@layout/recommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/weatherForecast">
+        </include>
+
+
+        <ImageButton
+            android:id="@+id/favoriteButton"
+            android:layout_margin="10dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_baseline_star_outline_24"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/chooseAsFavorite"
+            android:background="@color/transparent"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</layout>
